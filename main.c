@@ -54,8 +54,7 @@ int main(int argc, char **argv){
         abort ();
       }
 
-  printf ("aflag = %d, bflag = %d, evalue = %s, rvalue = %s\n",
-          aflag, bflag, evalue, rvalue);
+  //printf ("aflag = %d, bflag = %d, evalue = %s, rvalue = %s\n",aflag, bflag, evalue, rvalue);
 
 int foundError=0;
   for (index = optind; index < argc; index++){
