@@ -1,4 +1,4 @@
-# resistorSelectorC
+# resistorSelector(ResRat)
 ## To install:
 ```shell
 ./configure 
