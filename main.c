@@ -20,20 +20,15 @@ float modulo(float val){
 }
 
 int main(int argc, char **argv){
-    int aflag = 0;
-  int bflag = 0;
   char *evalue = NULL;
   char *rvalue = NULL;
   int index;
   int c;
 
   opterr = 0;
-  while ((c = getopt (argc, argv, "ar:e:")) != -1)
+  while ((c = getopt (argc, argv, "r:e:")) != -1)
     switch (c)
       {
-      case 'a':
-        aflag = 1;
-        break;
       case 'r':
         rvalue = optarg;
         break;
